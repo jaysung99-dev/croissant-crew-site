@@ -1,0 +1,12 @@
+:root { --bg: #fffaf2; --fg: #2b2118; --muted: #7a6a58; --accent: #c8792b; --line: #eadcc8; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1d1712; --fg: #f3e9dc; --muted: #b5a48f; --accent: #f0a65a; --line: #3a2f25; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.75 "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 24px; }
+h1 { font-size: 2rem; margin: 0 0 16px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+a { color: var(--accent); }
+.eyebrow { color: var(--accent); font-weight: 700; margin: 0 0 4px; }
+.eyebrow a { text-decoration: none; }
+.meta { color: var(--muted); font-size: .9rem; }
+footer { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; color: var(--muted); font-size: .85rem; }
